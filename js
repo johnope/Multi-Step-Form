@@ -1,3 +1,4 @@
+<script>
 const form = document.getElementById("myForm");
 const steps = form.querySelectorAll(".step");
 
@@ -29,3 +30,5 @@ document.querySelectorAll(".prev-step").forEach(button => {
         }
     });
 });
+
+</script>
